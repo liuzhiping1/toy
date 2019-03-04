@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                             activity_main_log_tv.setText(log);
                         }
                     });
-        }else {
+        }else if (requestType == RequestMethod.POST) {
             OkGo.<String>post(URL)
                     .params("nickname", nickname)
                     .params("gender", gender)
