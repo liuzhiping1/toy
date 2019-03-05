@@ -1,7 +1,7 @@
 # Toy说明文档
 
 ## Toy的简介
-Toy是一个简易服务器接口开发示例的项目，里面包含了Java服务端和Android客户端的源码，还有一个可部署的服务端文件目录。服务端程序是使用IDEA构建的SpringBoot项目，无需进行复杂的配置和安装Tomcat即可运行（服务器系统需要安装JDK）。Android客户端使OkGo框架进行网络请求。
+Toy是一个简易服务器接口开发示例的项目，里面包含了Java服务端和Android客户端的源码，还有一个可部署的服务端文件目录。服务端程序是使用IDEA构建的SpringBoot项目，无需安装Tomcat和进行复杂的配置，即可运行（服务器系统需要安装JDK）。Android客户端使OkGo框架进行网络请求。
 
 ## Toy的目录
 - **server** : 服务端的源码，使用IDEA开发工具打开。
